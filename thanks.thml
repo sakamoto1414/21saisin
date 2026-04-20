@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<title>友だち追加ありがとうございます</title>
+
+<!-- TikTok Pixel Code Start -->
+<script>
+!function (w, d, t) {
+  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(
+var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
+;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+  ttq.load('D7J79B3C77U557SHJM10');
+  ttq.page();
+  ttq.track('CompleteRegistration');
+}(window, document, 'ttq');
+</script>
+<!-- TikTok Pixel Code End -->
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans JP',-apple-system,BlinkMacSystemFont,sans-serif;background:#f0faf4;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px;color:#1a1a1a}
+.card{background:#fff;border-radius:20px;padding:40px 28px;max-width:380px;width:100%;text-align:center;box-shadow:0 8px 40px rgba(6,199,85,.12),0 2px 8px rgba(0,0,0,.06);animation:fadeUp .6s ease-out both}
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.check-circle{width:88px;height:88px;background:#06C755;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 24px;animation:pop .6s ease-out .2s both;box-shadow:0 8px 24px rgba(6,199,85,.35)}
+@keyframes pop{0%{transform:scale(0);opacity:0}60%{transform:scale(1.15);opacity:1}100%{transform:scale(1);opacity:1}}
+.check-circle svg{width:44px;height:44px}
+h1{font-size:24px;font-weight:900;margin-bottom:14px;line-height:1.4}
+.intro{font-size:15px;color:#555;line-height:1.7;margin-bottom:24px}
+.note{background:#f8fdf9;border:2px solid #e0f5e6;border-radius:14px;padding:18px;font-size:13px;color:#333;line-height:1.7;margin-bottom:20px;text-align:left}
+.note .note-title{font-weight:900;color:#06C755;margin-bottom:8px;font-size:14px}
+.back-hint{font-size:12px;color:#999;line-height:1.6;margin-top:16px}
+.emoji{font-size:20px;vertical-align:middle}
+</style>
+</head>
+<body>
+
+<div class="card">
+  <div class="check-circle">
+    <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M5 13l4 4L19 7"/>
+    </svg>
+  </div>
+
+  <h1>友だち追加<br>ありがとうございます!</h1>
+
+  <p class="intro">
+    LINEの友だち追加が<br>
+    正常に完了しました <span class="emoji">🎉</span>
+  </p>
+
+  <div class="note">
+    <div class="note-title">✨ 次のステップ</div>
+    LINEアプリに戻って<br>
+    特典メッセージをご確認ください。<br>
+    <br>
+    このページを開いた時点で<br>
+    特典の受け取りが確定しています。
+  </div>
+
+  <p class="back-hint">
+    このページは閉じて<br>
+    LINEアプリに戻ってください
+  </p>
+</div>
+
+</body>
+</html>
